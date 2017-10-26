@@ -10,6 +10,9 @@ namespace MyTest
     {
         static void Main(string[] args)
         {
+            var demo = new MyTest.Tasks.TaskDemo();
+            demo.Test2();
+            Console.ReadLine();
         }
     }
 }
