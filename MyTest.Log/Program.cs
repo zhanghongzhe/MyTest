@@ -4,18 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyTest
+namespace MyTest.Log
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //var demo = new MyTest.Tasks.TaskDemo();
-            //demo.Test2();
-
-            var demo = new MyTest.Collection.CollectionDemo();
-            demo.Test1();
-
+            Logger.Default.Debug("Test");
             Console.ReadLine();
         }
     }
